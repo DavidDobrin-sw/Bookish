@@ -6,13 +6,12 @@ authors = ["Tom Johnson <tom.johnson@softwire.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Flask = "^2.1.2"
-psycopg2 = "^2.9.3"
-Flask-SQLAlchemy = "^2.5.1"
-Flask-Script = "^2.0.6"
-Flask-Migrate = "^3.1.0"
-psycopg2-binary = "^2.9.3"
-python-dotenv = "^0.20.0"
+Flask = "^3.1.2"
+psycopg2 = "^2.9.10"
+Flask-SQLAlchemy = "^3.1.1"
+Flask-Migrate = "^4.1.0"
+psycopg2-binary = "^2.9.10"
+python-dotenv = "^1.1.1"
 
 [tool.poetry.dev-dependencies]
 
