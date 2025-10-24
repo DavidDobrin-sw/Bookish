@@ -4,4 +4,6 @@ from flask_migrate import Migrate
 db = SQLAlchemy()
 migrate = Migrate(db)
 
-from .schema import User, Book, Loan
+from .loan import Loan
+from .book import Book
+from .user import User
